@@ -6,8 +6,26 @@
 
 
 ## 1주차 배운 내용
-- 이곳에 작성하시면 됩니다.너무어렵다
-.
+- 과제 1번
+from random import *
+
+n = int(input("반복하려는 횟수를 입력하시오."))
+
+for i in range (1, n+1):
+    print(int(random() * 29) + 1) # 1~ 29 이하의 임의의 생성
+
+- 과제 2번
+print("  A\n BC\nDEF")
+
+- 과제 3번
+from random import *
+
+age = int(randrange(10, 30))
+name = input("이름을 영어로 입력하시오.: ")
+name = name.lower()
+
+print("안녕하세요. 제 이름은", name.title(), "이고, 제 나이는", age, "입니다.")
+
 ## 2주차 배운 내용
 - 이곳에 작성하시면 됩니다.
 
